@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D240B284221CFEB600FB9214 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D240B283221CFEB600FB9214 /* AppDelegate.m */; };
+		D240B287221CFEB600FB9214 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D240B286221CFEB600FB9214 /* ViewController.m */; };
+		D240B28A221CFEB600FB9214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D240B288221CFEB600FB9214 /* Main.storyboard */; };
+		D240B28C221CFEB900FB9214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D240B28B221CFEB900FB9214 /* Assets.xcassets */; };
+		D240B28F221CFEB900FB9214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D240B28D221CFEB900FB9214 /* LaunchScreen.storyboard */; };
+		D240B292221CFEB900FB9214 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D240B291221CFEB900FB9214 /* main.m */; };
+		D240B29C221CFEB900FB9214 /* ______CAShapeLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D240B29B221CFEB900FB9214 /* ______CAShapeLayerTests.m */; };
+		D240B2A7221CFEB900FB9214 /* ______CAShapeLayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D240B2A6221CFEB900FB9214 /* ______CAShapeLayerUITests.m */; };
+		D240B2B6221CFF6A00FB9214 /* BezeicurveLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = D240B2B5221CFF6A00FB9214 /* BezeicurveLineView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D240B298221CFEB900FB9214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D240B277221CFEB600FB9214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D240B27E221CFEB600FB9214;
+			remoteInfo = "贝塞尔曲线与CAShapeLayer";
+		};
+		D240B2A3221CFEB900FB9214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D240B277221CFEB600FB9214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D240B27E221CFEB600FB9214;
+			remoteInfo = "贝塞尔曲线与CAShapeLayer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D240B27F221CFEB600FB9214 /* 贝塞尔曲线与CAShapeLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "贝塞尔曲线与CAShapeLayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D240B282221CFEB600FB9214 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D240B283221CFEB600FB9214 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D240B285221CFEB600FB9214 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D240B286221CFEB600FB9214 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D240B289221CFEB600FB9214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D240B28B221CFEB900FB9214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D240B28E221CFEB900FB9214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D240B290221CFEB900FB9214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D240B291221CFEB900FB9214 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D240B297221CFEB900FB9214 /* 贝塞尔曲线与CAShapeLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "贝塞尔曲线与CAShapeLayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D240B29B221CFEB900FB9214 /* ______CAShapeLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______CAShapeLayerTests.m"; sourceTree = "<group>"; };
+		D240B29D221CFEB900FB9214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D240B2A2221CFEB900FB9214 /* 贝塞尔曲线与CAShapeLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "贝塞尔曲线与CAShapeLayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D240B2A6221CFEB900FB9214 /* ______CAShapeLayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______CAShapeLayerUITests.m"; sourceTree = "<group>"; };
+		D240B2A8221CFEB900FB9214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D240B2B4221CFF6A00FB9214 /* BezeicurveLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezeicurveLineView.h; sourceTree = "<group>"; };
+		D240B2B5221CFF6A00FB9214 /* BezeicurveLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezeicurveLineView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D240B27C221CFEB600FB9214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D240B294221CFEB900FB9214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D240B29F221CFEB900FB9214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D240B276221CFEB600FB9214 = {
+			isa = PBXGroup;
+			children = (
+				D240B281221CFEB600FB9214 /* 贝塞尔曲线与CAShapeLayer */,
+				D240B29A221CFEB900FB9214 /* 贝塞尔曲线与CAShapeLayerTests */,
+				D240B2A5221CFEB900FB9214 /* 贝塞尔曲线与CAShapeLayerUITests */,
+				D240B280221CFEB600FB9214 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D240B280221CFEB600FB9214 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D240B27F221CFEB600FB9214 /* 贝塞尔曲线与CAShapeLayer.app */,
+				D240B297221CFEB900FB9214 /* 贝塞尔曲线与CAShapeLayerTests.xctest */,
+				D240B2A2221CFEB900FB9214 /* 贝塞尔曲线与CAShapeLayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D240B281221CFEB600FB9214 /* 贝塞尔曲线与CAShapeLayer */ = {
+			isa = PBXGroup;
+			children = (
+				D240B282221CFEB600FB9214 /* AppDelegate.h */,
+				D240B283221CFEB600FB9214 /* AppDelegate.m */,
+				D240B285221CFEB600FB9214 /* ViewController.h */,
+				D240B286221CFEB600FB9214 /* ViewController.m */,
+				D240B2B4221CFF6A00FB9214 /* BezeicurveLineView.h */,
+				D240B2B5221CFF6A00FB9214 /* BezeicurveLineView.m */,
+				D240B288221CFEB600FB9214 /* Main.storyboard */,
+				D240B28B221CFEB900FB9214 /* Assets.xcassets */,
+				D240B28D221CFEB900FB9214 /* LaunchScreen.storyboard */,
+				D240B290221CFEB900FB9214 /* Info.plist */,
+				D240B291221CFEB900FB9214 /* main.m */,
+			);
+			path = "贝塞尔曲线与CAShapeLayer";
+			sourceTree = "<group>";
+		};
+		D240B29A221CFEB900FB9214 /* 贝塞尔曲线与CAShapeLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D240B29B221CFEB900FB9214 /* ______CAShapeLayerTests.m */,
+				D240B29D221CFEB900FB9214 /* Info.plist */,
+			);
+			path = "贝塞尔曲线与CAShapeLayerTests";
+			sourceTree = "<group>";
+		};
+		D240B2A5221CFEB900FB9214 /* 贝塞尔曲线与CAShapeLayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D240B2A6221CFEB900FB9214 /* ______CAShapeLayerUITests.m */,
+				D240B2A8221CFEB900FB9214 /* Info.plist */,
+			);
+			path = "贝塞尔曲线与CAShapeLayerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D240B27E221CFEB600FB9214 /* 贝塞尔曲线与CAShapeLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D240B2AB221CFEB900FB9214 /* Build configuration list for PBXNativeTarget "贝塞尔曲线与CAShapeLayer" */;
+			buildPhases = (
+				D240B27B221CFEB600FB9214 /* Sources */,
+				D240B27C221CFEB600FB9214 /* Frameworks */,
+				D240B27D221CFEB600FB9214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "贝塞尔曲线与CAShapeLayer";
+			productName = "贝塞尔曲线与CAShapeLayer";
+			productReference = D240B27F221CFEB600FB9214 /* 贝塞尔曲线与CAShapeLayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D240B296221CFEB900FB9214 /* 贝塞尔曲线与CAShapeLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D240B2AE221CFEB900FB9214 /* Build configuration list for PBXNativeTarget "贝塞尔曲线与CAShapeLayerTests" */;
+			buildPhases = (
+				D240B293221CFEB900FB9214 /* Sources */,
+				D240B294221CFEB900FB9214 /* Frameworks */,
+				D240B295221CFEB900FB9214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D240B299221CFEB900FB9214 /* PBXTargetDependency */,
+			);
+			name = "贝塞尔曲线与CAShapeLayerTests";
+			productName = "贝塞尔曲线与CAShapeLayerTests";
+			productReference = D240B297221CFEB900FB9214 /* 贝塞尔曲线与CAShapeLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D240B2A1221CFEB900FB9214 /* 贝塞尔曲线与CAShapeLayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D240B2B1221CFEB900FB9214 /* Build configuration list for PBXNativeTarget "贝塞尔曲线与CAShapeLayerUITests" */;
+			buildPhases = (
+				D240B29E221CFEB900FB9214 /* Sources */,
+				D240B29F221CFEB900FB9214 /* Frameworks */,
+				D240B2A0221CFEB900FB9214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D240B2A4221CFEB900FB9214 /* PBXTargetDependency */,
+			);
+			name = "贝塞尔曲线与CAShapeLayerUITests";
+			productName = "贝塞尔曲线与CAShapeLayerUITests";
+			productReference = D240B2A2221CFEB900FB9214 /* 贝塞尔曲线与CAShapeLayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D240B277221CFEB600FB9214 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = YD;
+				TargetAttributes = {
+					D240B27E221CFEB600FB9214 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D240B296221CFEB900FB9214 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D240B27E221CFEB600FB9214;
+					};
+					D240B2A1221CFEB900FB9214 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D240B27E221CFEB600FB9214;
+					};
+				};
+			};
+			buildConfigurationList = D240B27A221CFEB600FB9214 /* Build configuration list for PBXProject "贝塞尔曲线与CAShapeLayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D240B276221CFEB600FB9214;
+			productRefGroup = D240B280221CFEB600FB9214 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D240B27E221CFEB600FB9214 /* 贝塞尔曲线与CAShapeLayer */,
+				D240B296221CFEB900FB9214 /* 贝塞尔曲线与CAShapeLayerTests */,
+				D240B2A1221CFEB900FB9214 /* 贝塞尔曲线与CAShapeLayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D240B27D221CFEB600FB9214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D240B28F221CFEB900FB9214 /* LaunchScreen.storyboard in Resources */,
+				D240B28C221CFEB900FB9214 /* Assets.xcassets in Resources */,
+				D240B28A221CFEB600FB9214 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D240B295221CFEB900FB9214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D240B2A0221CFEB900FB9214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D240B27B221CFEB600FB9214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D240B287221CFEB600FB9214 /* ViewController.m in Sources */,
+				D240B292221CFEB900FB9214 /* main.m in Sources */,
+				D240B2B6221CFF6A00FB9214 /* BezeicurveLineView.m in Sources */,
+				D240B284221CFEB600FB9214 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D240B293221CFEB900FB9214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D240B29C221CFEB900FB9214 /* ______CAShapeLayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D240B29E221CFEB900FB9214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D240B2A7221CFEB900FB9214 /* ______CAShapeLayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D240B299221CFEB900FB9214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D240B27E221CFEB600FB9214 /* 贝塞尔曲线与CAShapeLayer */;
+			targetProxy = D240B298221CFEB900FB9214 /* PBXContainerItemProxy */;
+		};
+		D240B2A4221CFEB900FB9214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D240B27E221CFEB600FB9214 /* 贝塞尔曲线与CAShapeLayer */;
+			targetProxy = D240B2A3221CFEB900FB9214 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D240B288221CFEB600FB9214 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D240B289221CFEB600FB9214 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D240B28D221CFEB900FB9214 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D240B28E221CFEB900FB9214 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D240B2A9221CFEB900FB9214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D240B2AA221CFEB900FB9214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D240B2AC221CFEB900FB9214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "贝塞尔曲线与CAShapeLayer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GZH.------CAShapeLayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D240B2AD221CFEB900FB9214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "贝塞尔曲线与CAShapeLayer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GZH.------CAShapeLayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D240B2AF221CFEB900FB9214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "贝塞尔曲线与CAShapeLayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GZH.------CAShapeLayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/贝塞尔曲线与CAShapeLayer.app/贝塞尔曲线与CAShapeLayer";
+			};
+			name = Debug;
+		};
+		D240B2B0221CFEB900FB9214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "贝塞尔曲线与CAShapeLayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GZH.------CAShapeLayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/贝塞尔曲线与CAShapeLayer.app/贝塞尔曲线与CAShapeLayer";
+			};
+			name = Release;
+		};
+		D240B2B2221CFEB900FB9214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "贝塞尔曲线与CAShapeLayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GZH.------CAShapeLayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "贝塞尔曲线与CAShapeLayer";
+			};
+			name = Debug;
+		};
+		D240B2B3221CFEB900FB9214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "贝塞尔曲线与CAShapeLayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GZH.------CAShapeLayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "贝塞尔曲线与CAShapeLayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D240B27A221CFEB600FB9214 /* Build configuration list for PBXProject "贝塞尔曲线与CAShapeLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D240B2A9221CFEB900FB9214 /* Debug */,
+				D240B2AA221CFEB900FB9214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D240B2AB221CFEB900FB9214 /* Build configuration list for PBXNativeTarget "贝塞尔曲线与CAShapeLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D240B2AC221CFEB900FB9214 /* Debug */,
+				D240B2AD221CFEB900FB9214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D240B2AE221CFEB900FB9214 /* Build configuration list for PBXNativeTarget "贝塞尔曲线与CAShapeLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D240B2AF221CFEB900FB9214 /* Debug */,
+				D240B2B0221CFEB900FB9214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D240B2B1221CFEB900FB9214 /* Build configuration list for PBXNativeTarget "贝塞尔曲线与CAShapeLayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D240B2B2221CFEB900FB9214 /* Debug */,
+				D240B2B3221CFEB900FB9214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D240B277221CFEB600FB9214 /* Project object */;
+}
